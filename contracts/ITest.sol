@@ -9,7 +9,7 @@ pragma solidity ^0.8.24;
 // Transient storage - data is cleared out after a transaction
 
 interface ITest {
-        event TestCalled(address caller);  // 定义事件，记录调用者地址
+    event TestCalled(address caller);  // 定义事件，记录调用者地址
     function val() external view returns (uint256);
     function test() external;
 }

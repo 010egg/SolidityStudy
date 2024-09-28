@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_etherStoreAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "collectEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositFund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherStore",
+				"outputs": [
+					{
+						"internalType": "contract EtherStore",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwnEtherStore",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DAOAttack/Attack.sol": "Attack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DAOAttack/Attack.sol": {
+			"keccak256": "0x41b7041c95711f26f6e8ca2b20b9d245db4566d568a8816d082aab734f4427c8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9236962b1475a13d41eb3eaeb622159bb4e144f6f9296eb541288532c0f5caeb",
+				"dweb:/ipfs/QmTQc7ZrSycExBSgfR9n1uSx5ZA4VTPLqnCHBB4T74xGdo"
+			]
+		},
+		"contracts/DAOAttack/EtherStore.sol": {
+			"keccak256": "0x6ddd0eba3630fb7e01e6473d6aabfbc8291d73524090f08979aa89bdc3b7af4e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bec301920885111de0785480c736b6fce747f2ddd415ac4db4531d2b1401813a",
+				"dweb:/ipfs/QmQDoVDhmRb9PbFKM5GgiKfNsdPXgXwoWJoMs7iGfvtGdo"
+			]
+		}
+	},
+	"version": 1
+}
